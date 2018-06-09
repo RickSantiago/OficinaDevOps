@@ -53,7 +53,7 @@
 
     <div id="content" role="main">
         <section class="row colset-2-its">
-            <h1>Bem vindo ao Grails</h1>
+            <h3>Bem vindo ao Grails</h3>
 
             <p>
                 Parabéns
