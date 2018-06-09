@@ -104,7 +104,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: create-drop
+            dbCreate: update
             url: jdbc:mysql://localhost/oficina #jdbc:oracle:thin:@//10.0.0.203:1521/hpm_db
             username: root
             password: 16019377
@@ -129,7 +129,7 @@ environments:
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
     test:
         dataSource:
-            dbCreate: create-drop
+            dbCreate: update
             url: jdbc:mysql://localhost/oficina #jdbc:oracle:thin:@//10.0.0.203:1521/hpm_db
             username: root
             password: 16019377
@@ -154,7 +154,7 @@ environments:
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
     production:
         dataSource:
-            dbCreate: create-drop
+            dbCreate: update
             url: jdbc:mysql://localhost/oficina #jdbc:oracle:thin:@//10.0.0.203:1521/hpm_db
             username: root
             password: 16019377
