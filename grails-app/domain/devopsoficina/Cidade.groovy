@@ -7,4 +7,8 @@ class Cidade {
 
     static constraints = {
     }
+
+    String toString(){
+        this.nome
+    }
 }
