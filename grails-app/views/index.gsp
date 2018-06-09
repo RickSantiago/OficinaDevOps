@@ -57,6 +57,7 @@
 
             <p>
                 Parabéns
+                - Bem vindo a Oficina DevOps
             </p>
 
             <div id="controllers" role="navigation">
